@@ -1,0 +1,89 @@
+            ##-------While Loop------##
+##1.Write a program to print numbers from 1 to 10 using a while loop.
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+
+##2.Write a program to print numbers from 10 to 1 in reverse order using a while loop.
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+
+##3.Write a program to print all even numbers between 1 and 20 using a while loop.
+i = 2
+while i <= 20:
+    print(i)
+    i += 2
+
+
+##4.Write a program to print all odd numbers between 1 and 20 using a while loop.
+i = 1
+while i <= 20:
+    print(i)
+    i += 2
+
+
+##5.Write a program to find the sum of numbers from 1 to 100 using a while loop.
+i = 1
+s = 0
+
+while i <= 100:
+    s += i
+    i += 1
+
+print(s)
+
+
+##6.Write a program to print the multiplication table of a given number using a while loop.
+n = int(input("Enter number: "))
+i = 1
+
+while i <= 10:
+    print(n * i)
+    i += 1
+
+
+##7.Write a program to count the number of digits in a given number using a while loop.
+n = int(input("Enter number: "))
+count = 0
+
+while n > 0:
+    count += 1
+    n //= 10
+
+print(count)
+
+
+##8.Write a program to reverse a given number using a while loop.
+n = int(input("Enter number: "))
+rev = 0
+
+while n > 0:
+    rev = rev * 10 + n % 10
+    n //= 10
+
+print(rev)
+
+
+##9.Write a program to find the factorial of a given number using a while loop.
+n = int(input("Enter number: "))
+fact = 1
+
+while n > 0:
+    fact *= n
+    n -= 1
+
+print(fact)
+
+
+##10.Write a program to keep asking the user for a password until the correct password is entered.
+password = "1234"
+
+while input("Enter password: ") != password:
+    print("Wrong Password")
+
+print("Access Granted")
