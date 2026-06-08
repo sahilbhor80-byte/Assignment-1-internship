@@ -1,0 +1,84 @@
+     ##--------CONDITIONAL statement--------##
+
+##1.	Write a program to check whether a number is positive or negative. 
+n = int(input("Enter number: "))
+if n >= 0:
+    print("Positive")
+else:
+    print("Negative")
+
+ ##2.Write a program to check whether a number is even or odd.    
+num = int(input("Enter number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+##3.	Write a program to find the greater number between two numbers. 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print(f"{a} is greater")
+else:
+    print(f"{b} is greater")
+
+##4.	Write a program to check whether a person is eligible to vote (age ≥ 18). 
+age = int(input("Enter age: "))
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+##5.Write a program to check whether a number is divisible by 5. 
+n = int(input("Enter number: "))
+if n % 5 == 0:
+    print("Divisible by 5")
+else:
+    print("Not Divisible by 5")
+
+##6.	Write a program to check whether a given year is a leap year or not. 
+year = int(input("Enter year: "))
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not Leap Year")
+
+##7.	Write a program to check whether a character is a vowel or a consonant. 
+ch = input("Enter character: ").lower()
+if ch in "aeiou":
+    print("Vowel")
+else:
+    print("Consonant")
+
+##8.	Write a program to find the largest among three numbers. 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a > b and a > c:
+    print(f"{a} is greatest")
+elif b > c:
+    print(f"{b} is greatest")
+else:
+    print(f"{c} is greatest")
+
+##9.	Write a program to assign grades based on marks: 
+marks = int(input("Enter marks: "))
+
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+elif marks >= 50:
+    print("C")
+else:
+    print("Fail")
+
+
+##10.	Write a program to check whether a number is within the range of 1 to 100.
+n = int(input("Enter number: "))
+
+if 1 <= n <= 100:
+    print("Within Range")
+else:
+    print("Out of Range")
